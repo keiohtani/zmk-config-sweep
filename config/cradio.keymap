@@ -47,7 +47,7 @@
 
         windows-quick-actions-layer {
             bindings = <
-&to 4  &none  &none  &none  &none    &kp F11       &none             &none        &none          &kp LG(G)
+&to 4  &none  &none  &none  &none    &kp F11       &none             &none        &none          &kp LG(L)
 &none  &none  &none  &none  &none    &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LC(TAB)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))
 &none  &none  &none  &none  &none    &none         &none             &none        &none          &none
                      &none  &none    &none         &none
