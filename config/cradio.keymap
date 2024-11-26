@@ -29,19 +29,19 @@
 
         windows-symbols-layer {
             bindings = <
-&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none           &none           &none         &none      &none
-&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
-&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none
-                                                    &kp ESCAPE     &trans                   &trans          &none
+&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none                     &none                 &none                   &none                &none
+&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &hm RIGHT_GUI LEFT_ARROW  &hm RIGHT_SHIFT DOWN  &hm RIGHT_ALT UP_ARROW  &hm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
+&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME                  &kp PAGE_DOWN         &kp PAGE_UP             &kp END              &none
+                                                    &kp ESCAPE     &trans                   &trans                    &none
             >;
         };
 
         windows-number-layer {
             bindings = <
-&none        &none       &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
-&bootloader  &none       &bt BT_SEL 1  &kp LSHFT          &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
-&none        &bt BT_CLR  &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
-                                       &none              &trans             &trans   &kp BACKSPACE
+&none  &bt BT_SEL 3  &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
+&none  &bt BT_SEL 4  &bt BT_SEL 1  &hm LSHFT K_MUTE   &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
+&none  &bt BT_CLR    &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
+                                   &none              &trans             &trans   &kp BACKSPACE
             >;
         };
 
@@ -49,7 +49,7 @@
             bindings = <
 &to 4  &none  &none  &none  &none    &kp F11       &none             &none        &none          &kp LG(L)
 &none  &none  &none  &none  &none    &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LC(TAB)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))
-&none  &none  &none  &none  &none    &none         &none             &none        &none          &none
+&none  &none  &none  &none  &none    &none         &none             &none        &none          &bootloader
                      &none  &none    &none         &none
             >;
         };
@@ -65,19 +65,19 @@
 
         mac-symbols-layer {
             bindings = <
-&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none           &none           &none         &none      &none
-&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
-&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none
+&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none           &none                       &none               &none                    &none
+&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW  &hm RIGHT_SHIFT DOWN_ARROW  &hm RIGHT_GUI DOWN  &hm RIGHT_CONTROL RIGHT  &none
+&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME        &kp PAGE_DOWN               &kp PAGE_UP         &kp END                  &none
                                                     &kp CAPS       &trans                   &trans          &none
             >;
         };
 
         mac-number-layer {
             bindings = <
-&none        &none       &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
-&bootloader  &none       &bt BT_SEL 1  &kp LSHFT          &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
-&none        &bt BT_CLR  &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
-                                       &none              &trans             &trans   &kp BACKSPACE
+&none  &bt BT_SEL 3  &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
+&none  &bt BT_SEL 4  &bt BT_SEL 1  &hm LSHFT K_MUTE   &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
+&none  &bt BT_CLR    &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
+                                   &none              &trans             &trans   &kp BACKSPACE
             >;
         };
 
@@ -85,7 +85,7 @@
             bindings = <
 &to 0              &kp RS(RC(RG(W)))  &kp RS(RC(RG(E)))  &kp RS(RC(RG(R)))  &kp RS(RC(RG(T)))    &none              &kp LS(LC(LG(U)))  &kp LS(LC(LG(I)))  &none              &kp LS(LC(LG(Q)))
 &kp LS(LC(LG(A)))  &kp LS(LC(LG(S)))  &kp LS(LC(LG(D)))  &kp LS(LC(LG(F)))  &kp LS(LC(LG(G)))    &kp LS(LC(LG(H)))  &kp LS(LC(LG(J)))  &kp LS(LC(LG(K)))  &kp LS(LC(LG(L)))  &kp LS(LC(LG(SEMICOLON)))
-&kp RS(RC(RG(Z)))  &none              &kp RS(RC(RG(C)))  &kp RS(RC(RG(V)))  &kp RS(RC(RG(B)))    &kp LS(LC(LG(N)))  &kp LS(LC(LG(M)))  &none              &none              &none
+&kp RS(RC(RG(Z)))  &none              &kp RS(RC(RG(C)))  &kp RS(RC(RG(V)))  &kp RS(RC(RG(B)))    &kp LS(LC(LG(N)))  &kp LS(LC(LG(M)))  &none              &none              &bootloader
                                                          &none              &none                &none              &none
             >;
         };
