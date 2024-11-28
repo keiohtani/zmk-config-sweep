@@ -33,18 +33,18 @@
 
         windows-default-layer {
             bindings = <
-&kp Q               &kp W           &kp E           &kp R              &kp T             &kp Y            &kp U               &kp I            &kp O            &kp P
-&hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_ALT D  &hmd LEFT_SHIFT F  &hm LEFT_GUI G    &hm RIGHT_GUI H  &hmd RIGHT_SHIFT J  &hm RIGHT_ALT K  &hm RIGHT_ALT L  &hm RIGHT_CONTROL APOS
-&kp Z               &kp X           &kp C           &kp V              &kp B             &kp N            &kp M               &kp COMMA        &kp DOT          &kp FSLH
-                                                    &kp CAPSLOCK       &lt 2 ENTER       &lt 1 SPACE      &kp BSPC
+&kp Q               &kp W           &kp E            &kp R              &kp T             &kp Y            &kp U               &kp I             &kp O            &kp P
+&hm LEFT_CONTROL A  &hm LEFT_ALT S  &hmd LEFT_ALT D  &hmd LEFT_SHIFT F  &hm LEFT_GUI G    &hm RIGHT_GUI H  &hmd RIGHT_SHIFT J  &hmd RIGHT_ALT K  &hm RIGHT_ALT L  &hm RIGHT_CONTROL APOS
+&kp Z               &kp X           &kp C            &kp V              &kp B             &kp N            &kp M               &kp COMMA         &kp DOT          &kp FSLH
+                                                     &kp CAPSLOCK       &lt 2 ENTER       &lt 1 SPACE      &kp BSPC
             >;
         };
 
         windows-symbols-layer {
             bindings = <
-&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none                     &none                 &none                   &none                &none
-&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &hm RIGHT_GUI LEFT_ARROW  &hm RIGHT_SHIFT DOWN  &hm RIGHT_ALT UP_ARROW  &hm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
-&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME                  &kp PAGE_DOWN         &kp PAGE_UP             &kp END              &none
+&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none                     &none                  &none                    &none                &none
+&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &hm RIGHT_GUI LEFT_ARROW  &hmd RIGHT_SHIFT DOWN  &hmd RIGHT_ALT UP_ARROW  &hm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
+&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME                  &kp PAGE_DOWN          &kp PAGE_UP              &kp END              &none
                                                     &kp ESCAPE     &trans                   &trans                    &none
             >;
         };
@@ -52,7 +52,7 @@
         windows-number-layer {
             bindings = <
 &none  &bt BT_SEL 3  &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
-&none  &bt BT_SEL 4  &bt BT_SEL 1  &hm LSHFT K_MUTE   &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
+&none  &bt BT_SEL 4  &bt BT_SEL 1  &hmd LSHFT K_MUTE  &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
 &none  &bt BT_CLR    &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
                                    &none              &trans             &trans   &kp BACKSPACE
             >;
@@ -69,18 +69,18 @@
 
         mac-default-layer {
             bindings = <
-&kp Q           &kp W               &kp E           &kp R              &kp T          &kp Y        &kp U               &kp I            &kp O                &kp P
-&hm LEFT_ALT A  &hm LEFT_CONTROL S  &hm LEFT_GUI D  &hmd LEFT_SHIFT F  &kp G          &kp H        &hmd RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm RIGHT_CONTROL L  &hm RIGHT_ALT APOS
-&kp Z           &kp X               &kp C           &kp V              &kp B          &kp N        &kp M               &kp COMMA        &kp DOT              &kp FSLH
-                                                    &kp ESC            &lt 6 ENTER    &lt 5 SPACE  &kp BSPC
+&kp Q           &kp W               &kp E            &kp R              &kp T          &kp Y        &kp U               &kp I             &kp O                &kp P
+&hm LEFT_ALT A  &hm LEFT_CONTROL S  &hmd LEFT_GUI D  &hmd LEFT_SHIFT F  &kp G          &kp H        &hmd RIGHT_SHIFT J  &hmd RIGHT_GUI K  &hm RIGHT_CONTROL L  &hm RIGHT_ALT APOS
+&kp Z           &kp X               &kp C            &kp V              &kp B          &kp N        &kp M               &kp COMMA         &kp DOT              &kp FSLH
+                                                     &kp ESC            &lt 6 ENTER    &lt 5 SPACE  &kp BSPC
             >;
         };
 
         mac-symbols-layer {
             bindings = <
-&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none           &none                       &none                   &none                    &none
-&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW  &hm RIGHT_SHIFT DOWN_ARROW  &hm RIGHT_GUI UP_ARROW  &hm RIGHT_CONTROL RIGHT  &none
-&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME        &kp PAGE_DOWN               &kp PAGE_UP             &kp END                  &none
+&kp TAB               &kp AMPERSAND    &kp STAR     &kp BACKSLASH  &kp GRAVE                &none           &none                        &none                    &none                    &none
+&kp LEFT_PARENTHESIS  &kp DOLLAR       &kp PERCENT  &kp CARET      &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW  &hmd RIGHT_SHIFT DOWN_ARROW  &hmd RIGHT_GUI UP_ARROW  &hm RIGHT_CONTROL RIGHT  &none
+&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp RIGHT_BRACKET        &kp HOME        &kp PAGE_DOWN                &kp PAGE_UP              &kp END                  &none
                                                     &kp CAPS       &trans                   &trans          &none
             >;
         };
@@ -88,7 +88,7 @@
         mac-number-layer {
             bindings = <
 &none  &bt BT_SEL 3  &bt BT_SEL 0  &kp C_VOLUME_UP    &none              &none    &kp N7         &kp N8  &kp N9  &kp MINUS
-&none  &bt BT_SEL 4  &bt BT_SEL 1  &hm LSHFT K_MUTE   &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
+&none  &bt BT_SEL 4  &bt BT_SEL 1  &hmd LSHFT K_MUTE  &kp PRINTSCREEN    &kp DOT  &kp N4         &kp N5  &kp N6  &kp SEMI
 &none  &bt BT_CLR    &bt BT_SEL 2  &kp C_VOLUME_DOWN  &none              &kp N0   &kp N1         &kp N2  &kp N3  &kp EQUAL
                                    &none              &trans             &trans   &kp BACKSPACE
             >;
