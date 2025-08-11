@@ -60,10 +60,10 @@
 
         windows-quick-actions-layer {
             bindings = <
-&to 4  &none  &none  &none  &none    &kp F11       &none             &none        &none          &kp LG(L)
-&none  &none  &none  &none  &none    &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LC(TAB)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))
-&none  &none  &none  &none  &none    &none         &none             &none        &none          &bootloader
-                     &none  &none    &none         &none
+&to 4  &none  &none  &none  &kp RG(N3)          &kp F11       &none             &none        &kp LG(N5)     &kp LG(L)
+&none  &none  &none  &none  &none               &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LC(TAB)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))
+&none  &none  &none  &none  &kp RG(NUMBER_6)    &none         &kp LG(NUMBER_4)  &none        &none          &bootloader
+                     &none  &none               &none         &none
             >;
         };
 
