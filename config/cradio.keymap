@@ -62,7 +62,7 @@
             bindings = <
 &to 4  &none  &none  &none  &kp RG(N3)          &kp F11       &none             &none        &kp LG(N5)     &kp LG(L)
 &none  &none  &none  &none  &none               &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LC(TAB)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))
-&none  &none  &none  &none  &kp RG(NUMBER_6)    &none         &kp LG(NUMBER_4)  &none        &none          &bootloader
+&none  &none  &none  &none  &kp RG(NUMBER_6)    &none         &kp LG(NUMBER_4)  &none        &none          &none
                      &none  &none               &none         &none
             >;
         };
@@ -96,9 +96,9 @@
 
         mac-quick-actions-layer {
             bindings = <
-&to 0              &kp RS(RC(RG(W)))  &kp RS(RC(RG(E)))  &kp RS(RC(RG(R)))  &kp RS(RC(RG(T)))    &none              &kp LS(LC(LG(U)))  &kp LS(LC(LG(I)))  &none              &kp LS(LC(LG(Q)))
+&to 0              &kp RS(RC(RG(W)))  &kp RS(RC(RG(E)))  &kp RS(RC(RG(R)))  &kp RS(RC(RG(T)))    &kp LS(LC(LG(Y)))  &kp LS(LC(LG(U)))  &kp LS(LC(LG(I)))  &kp LS(LC(LG(O)))  &kp LS(LC(LG(Q)))
 &kp LS(LC(LG(A)))  &kp LS(LC(LG(S)))  &kp LS(LC(LG(D)))  &kp LS(LC(LG(F)))  &kp LS(LC(LG(G)))    &kp LS(LC(LG(H)))  &kp LS(LC(LG(J)))  &kp LS(LC(LG(K)))  &kp LS(LC(LG(L)))  &kp LS(LC(LG(SEMICOLON)))
-&kp RS(RC(RG(Z)))  &none              &kp RS(RC(RG(C)))  &kp RS(RC(RG(V)))  &kp RS(RC(RG(B)))    &kp LS(LC(LG(N)))  &kp LS(LC(LG(M)))  &none              &none              &bootloader
+&kp RS(RC(RG(Z)))  &kp RS(RC(RG(X)))  &kp RS(RC(RG(C)))  &kp RS(RC(RG(V)))  &kp RS(RC(RG(B)))    &kp LS(LC(LG(N)))  &kp LS(LC(LG(M)))  &none              &none              &none
                                                          &none              &none                &none              &none
             >;
         };
